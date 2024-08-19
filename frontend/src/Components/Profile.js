@@ -69,7 +69,12 @@ function Profile() {
             <div className='pt-5'>
                         {
                             loading ? (
-                                <div>Loading...</div>
+                                <div className='mt-4 flex'>
+                                    <div className='mx-auto flex items-center'>
+                                        <img className='' src="https://cdn.pixabay.com/animation/2023/10/08/03/19/03-19-26-213_512.gif" width={70} alt="" />
+                                        <h5 className='ms-2 text-xl'>Fetching data...</h5>
+                                    </div>
+                                </div>
                             ):(
                                 <div className=''>
                                     {
