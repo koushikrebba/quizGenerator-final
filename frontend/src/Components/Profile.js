@@ -1,5 +1,3 @@
-
-
 import React, { useState, useContext, useEffect } from 'react';
 import { CounterContext } from '../Context/CounterContext';
 import { FaUserLarge } from "react-icons/fa6";
@@ -52,8 +50,6 @@ function Profile() {
     }
 
 
-    
-    // style={{boxShadow: "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px"}}
 
     return (
         <div className='h-screen bg-[#0F1214] text-white'>
